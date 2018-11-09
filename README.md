@@ -1,1 +1,1 @@
-# MacOS configurations repo
+# Personal stuff repo

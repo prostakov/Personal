@@ -1,0 +1,37 @@
+.content {
+    margin-top: 100px;
+}
+
+.avatar {
+    border: 1px solid #fff;
+    border-radius: 120px;
+    width: 140px;
+    float: left;
+    margin: 0 30px 15px 0;
+}
+
+.text {
+    font-size: 14px;
+    font-family: monospace;
+    color: #828282;
+}
+
+.text .important {
+    color: #a28080;
+    font-weight: bold;
+}
+
+.text a, text a:focus, .text a:active, .text a:link {
+    color: #1e1e1e;
+    text-decoration: none;
+}
+
+.text a:hover  {
+    color:#9a0000;
+    text-decoration: none;
+}
+
+.bio {
+    width: 400px;
+}
+

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="styles.css">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111565441-1"></script>
+<!--	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-111565441-1');
+	</script> -->
+        <meta name="google-site-verification" content="Mzg-7KLK_00NlrpxteetoyX2HJaat6fytGcCNA1vSGo" />
+    </head>
+    <body>
+        <div class="container content">
+            <div class="row">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="pull-left">
+                            <img class="avatar" src="avatar.png">
+                        </div>
+                        <div class="bio pull-left">
+                            <p class="text">Hi! My name's Serhii Prostakov and I am a software developer from Kyiv, Ukraine. </p>
+                            <p class="text">Some of the things I really enjoy include unhealthy food, <a href="https://www.youtube.com/watch?v=uEPVqJjMiAc" target="_blank">rock music from the 70s</a>, beer and movies directed by <a href="http://www.imdb.com/name/nm0000040/" target="_blank">Stanley Kubrick</a>.</p>
+                            <p class="text">Thanks for visiting! Site will open on <span id="deceive_text" class="important"></span>!</p>
+                            <p class="text">You can reach me via email: <a href="mailto:serhii.prostakov@gmail.com?Subject=Hey%20there!" target="_top">serhii.prostakov@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+            var text = months[Math.floor((Math.random() * 10))] + ' ' + Math.floor((Math.random() * 28) + 1);
+            document.getElementById('deceive_text').innerHTML = text;
+        </script>
+    </body>
+</html>
